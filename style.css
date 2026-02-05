@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 20px; }
+header { text-align: center; }
+h1 { font-size: 42px; }
+h2 { font-size: 28px; }
+#painelDidatico { display: flex; justify-content: space-around; font-size: 22px; margin: 20px 0; background: #020617; padding: 15px; border-radius: 8px; }
+#equipesContainer { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 15px; }
+.equipe { background: #020617; padding: 15px; border-radius: 8px; font-size: 20px; }
+.equipe h3 { font-size: 24px; }
+input { width: 60px; font-size: 18px; }
+button { font-size: 18px; padding: 10px 16px; margin: 5px; cursor: pointer; }
+footer { margin-top: 30px; text-align: center; }
+.hidden { display: none; }
+#ranking { margin-top: 30px; background: #020617; padding: 20px; font-size: 22px; }
+
